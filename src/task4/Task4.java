@@ -9,14 +9,14 @@ public class Task4 {
             try {
                 Thread.sleep(200);
             } catch (InterruptedException e) {
-                //e.printStackTrace();
-                System.out.println("Task_1 thread was interrupted");
+                System.out.println("Выполнение 1 было прервано");
             }
-            System.out.println("Task 1 executed by " + Thread.currentThread().getName());
+            System.out.println("Задание 1 было выполнено " + Thread.currentThread().getName());
         });
 
-        executor.submit(() -> System.out.println("Task 2 executed by "
-                + Thread.currentThread().getName()));
+        executor.submit(() -> {
+            System.out.println("Задание 2 было выполнено " + Thread.currentThread().getName());
+        });
 
         executor.shutDown();
     }
