@@ -1,0 +1,52 @@
+plugins {
+	id 'java'
+}
+
+group = 'com.example'
+version = ''
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_11
+}
+
+repositories {
+	mavenCentral()
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+jar {
+	archivesBaseName = 'task9'
+	manifest {
+		attributes 'Main-Class': 'com.example.task9.Task9Application'
+	}
+}
+
+task task1 {
+	task1.dependsOn jar
+	copy {
+		from jar
+		into 'DockerfileFolder'
+	}
+	finalizedBy {
+		buildDocker
+	}
+}
+
+task buildDocker(type: Exec) {
+	workingDir = file("${projectDir}/DockerfileFolder")
+	commandLine 'docker', 'build', '-t', 'java_task9', '.'
+	finalizedBy{
+		runDocker
+	}
+}
+
+//task runDocker(type: Exec) {
+//	commandLine 'docker', 'run', '-t', 'docker.io/library/my_docker_image'
+//}
+
+task runDocker(type: Exec) {
+	commandLine 'docker', 'run', '-it', 'docker.io/library/java_task9'
+}
