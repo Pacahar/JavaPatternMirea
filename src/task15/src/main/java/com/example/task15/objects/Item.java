@@ -1,14 +1,15 @@
 package com.example.task15.objects;
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.*;
-@AllArgsConstructor
-@NoArgsConstructor
-@Getter
-@Setter
+@Entity
+@Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Item {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)

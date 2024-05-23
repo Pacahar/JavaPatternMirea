@@ -1,19 +1,18 @@
 package com.example.task15.objects;
 
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
-@AllArgsConstructor
-@Getter
-@Setter
+@Entity
+@Data
 @Builder
-public class Order {
+@NoArgsConstructor
+@AllArgsConstructor
+public class OrderO {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;

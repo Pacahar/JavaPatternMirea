@@ -1,8 +1,7 @@
 package com.example.task15.services;
 
 import com.example.task15.DTO.OrderDTO;
-import com.example.task15.objects.Item;
-import com.example.task15.objects.Order;
+import com.example.task15.objects.OrderO;
 import com.example.task15.repositories.OrderRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -14,18 +13,18 @@ import java.util.List;
 public class OrderService {
     private final OrderRepository orderRepository;
 
-    public Order create(OrderDTO dto){
-        Order order = Order.builder()
+    public OrderO create(OrderDTO dto){
+        OrderO orderO = OrderO.builder()
                 .orderDate(dto.getOrderDate())
                 .build();
-        return orderRepository.save(order);
+        return orderRepository.save(orderO);
     }
-    public List<Order> readAll(){
+    public List<OrderO> readAll(){
         return orderRepository.findAll();
     }
 
-    public Order update(Order order){
-        return orderRepository.save(order);
+    public OrderO update(OrderO orderO){
+        return orderRepository.save(orderO);
     }
 
     public void delete(Long id){

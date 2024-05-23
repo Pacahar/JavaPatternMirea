@@ -1,9 +1,7 @@
 package com.example.task15.controllers;
 
 import com.example.task15.DTO.ItemDTO;
-import com.example.task15.DTO.OrderDTO;
 import com.example.task15.objects.Item;
-import com.example.task15.objects.Order;
 import com.example.task15.services.ItemService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
