@@ -1,58 +1,31 @@
-1254 [restartedMain] INFO  com.example.task19.Application Ц Starting Application using Java 17.0.10 with PID 1972 (C:\Users\ ирилл\Desktop\javaV2\task19\build\classes\java\main started by  ирилл in C:\Users\ ирилл\Desktop\javaV2\task19)
-1260 [restartedMain] INFO  com.example.task19.Application Ц No active profile set, falling back to 1 default profile: "default"
-1375 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor Ц Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-1375 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor Ц For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2755 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2849 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 76 ms. Found 2 JPA repository interfaces.
-3924 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port 8080 (http)
-3944 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
-3948 [restartedMain] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
-3949 [restartedMain] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/10.1.19]
-4077 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
-4078 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 2702 ms
-4353 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
-4692 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool Ц HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@72187a56
-4694 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
-4774 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
-4889 [restartedMain] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 6.4.4.Final
-4962 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator Ц HHH000026: Second-level cache disabled
-5435 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo Ц No LoadTimeWeaver setup: ignoring JPA class transformer
-6762 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-6806 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
-7261 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-7292 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping Ц Adding welcome page template: index
-7765 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer Ц LiveReload server is running on port 35729
-7788 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
-7817 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port 8080 (http) with context path ''
-7831 [restartedMain] INFO  com.example.task19.Application Ц Started Application in 7.128 seconds (process running for 8.225)
-//////////////////////////////////////
-1108 [restartedMain] INFO  com.example.task19.Application Ц Starting Application using Java 17.0.10 with PID 2568 (C:\Users\ ирилл\Desktop\javaV2\task19\build\classes\java\main started by  ирилл in C:\Users\ ирилл\Desktop\javaV2\task19)
-1112 [restartedMain] INFO  com.example.task19.Application Ц No active profile set, falling back to 1 default profile: "default"
-1176 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor Ц Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-1177 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor Ц For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2288 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2379 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
-3356 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port 8080 (http)
-3370 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
-3375 [restartedMain] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
-3375 [restartedMain] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/10.1.19]
-3459 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
-3460 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 2281 ms
-3677 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
-3970 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool Ц HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@23f8fb03
-3973 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
-4056 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
-4153 [restartedMain] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 6.4.4.Final
-4221 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator Ц HHH000026: Second-level cache disabled
-4681 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo Ц No LoadTimeWeaver setup: ignoring JPA class transformer
-5993 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-6039 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
-6555 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-6592 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping Ц Adding welcome page template: index
-7134 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer Ц LiveReload server is running on port 35729
-7155 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
-7188 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port 8080 (http) with context path ''
-7204 [restartedMain] INFO  com.example.task19.Application Ц Started Application in 6.586 seconds (process running for 7.596)
-12910 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
-12910 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
-12912 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 1 ms
+2303 [restartedMain] INFO  com.example.task19.Application Ц Starting Application using Java 17.0.10 with PID 2776 (C:\Users\ ирилл\Desktop\javaV2\task19\build\classes\java\main started by  ирилл in C:\Users\ ирилл\Desktop\javaV2\task19)
+2312 [restartedMain] INFO  com.example.task19.Application Ц No active profile set, falling back to 1 default profile: "default"
+2454 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor Ц Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2454 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor Ц For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+4430 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4610 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 141 ms. Found 2 JPA repository interfaces.
+6290 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port 8080 (http)
+6319 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+6325 [restartedMain] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+6326 [restartedMain] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/10.1.19]
+6461 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+6462 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 4006 ms
+6866 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+7322 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool Ц HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@75f97d0
+7326 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+7455 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+7660 [restartedMain] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 6.4.4.Final
+7774 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator Ц HHH000026: Second-level cache disabled
+8527 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo Ц No LoadTimeWeaver setup: ignoring JPA class transformer
+10691 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+10795 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+11583 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11633 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping Ц Adding welcome page template: index
+12314 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer Ц LiveReload server is running on port 35729
+12341 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+12388 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port 8080 (http) with context path ''
+12403 [restartedMain] INFO  com.example.task19.Application Ц Started Application in 11.054 seconds (process running for 13.002)
+27201 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+27202 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet Ц Initializing Servlet 'dispatcherServlet'
+27204 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet Ц Completed initialization in 2 ms
+27345 [http-nio-8080-exec-2] INFO  c.e.task19.services.ItemService Ц Read all Items

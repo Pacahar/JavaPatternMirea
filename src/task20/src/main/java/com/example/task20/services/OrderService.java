@@ -1,8 +1,8 @@
-package com.example.task19.services;
+package com.example.task20.services;
 
-import com.example.task19.DTO.OrderDTO;
-import com.example.task19.objects.OrderO;
-import com.example.task19.repositories.OrderRepository;
+import com.example.task20.DTO.OrderDTO;
+import com.example.task20.objects.OrderO;
+import com.example.task20.repositories.OrderRepository;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

@@ -36,7 +36,6 @@ public class ItemService {
         itemCriteriaQuery.select(root).orderBy(builder.asc(root.get("price")));
         Query<Item> query = session.createQuery(itemCriteriaQuery);
         return query.getResultList();
-
     }
 
     public void saveOrUpdateItem(Item item) {
