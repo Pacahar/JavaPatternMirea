@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>registration</title>
+    <link rel="icon" href="">
+  </head>
+  <body style="background-color: whitesmoke;">
+    <main style="display: flex; flex-direction: column; align-items: center; justify-content: center; font-family:sans-serif">
+        <form id="registration" class="reg-form" style="margin:50px; width: 50%; display: flex; flex-direction: column; align-items: center;">
+            <h1>Sign up</h1>
+            <input type="text" id="name" name="name" placeholder="Username" required style="margin: 5px; padding: 10px; border-radius: 5px; border: 1px solid lightgrey; font-size: 1rem; width: 280px">
+            
+            <input type="email" id="email" name="email" placeholder="Email" required style="margin: 5px; padding: 10px; border-radius: 5px; border: 1px solid lightgrey; font-size: 1rem; width: 280px">
+
+            <input type="password" id="password" name="password" placeholder="Password" required style="margin: 5px; padding: 10px; border-radius: 5px; border: 1px solid lightgrey; font-size: 1rem; width: 280px">
+    
+            <button id="reg-button" type="submit" style="color: white; border-radius: 5px; border: 1px solid whitesmoke; padding: 10px; font-size: 1.25rem; background-color: #007bff; width: 300px">Sign up</button>
+        </form>
+    </main>
+	<script>
+        document.getElementById("registration").addEventListener("submit", function(event) {
+        event.preventDefault();
+        let formData = new FormData(document.getElementById("registration"));
+        fetch("/reg", {
+            method: "POST",
+            body: formData
+        }).then(response => {
+            console.log("POST запрос выполнен успешно");
+        }).catch(error => {
+            console.error('Ошибка при отправке запроса:', error);
+        });
+            event.target.reset();
+        });
+    </script>
+  </body>
+</html>
